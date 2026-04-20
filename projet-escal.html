@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projet ESCA'L | Axel Roquain</title>
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Outfit:wght@400;700;800;900&display=swap" rel="stylesheet">
+    
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container nav-container">
+            <a href="index.html" class="logo">AR<span>.</span></a>
+            <ul class="nav-links">
+                <li><a href="index.html#home">Accueil</a></li>
+                <li><a href="index.html#about">À Propos</a></li>
+                <li><a href="index.html#portfolio" class="active">Portfolio</a></li>
+                <li><a href="index.html#contact">Contact</a></li>
+            </ul>
+            <div class="menu-toggle">
+                <i class='bx bx-menu'></i>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Project Hero -->
+    <header class="section project-header-margin">
+        <div class="container center">
+            <a href="index.html#portfolio" class="back-link"><i class='bx bx-left-arrow-alt'></i> Retour aux projets</a>
+            <span class="subtitle slide-in">Digital sans frontières</span>
+            <h1 class="project-hero-title fade-in">Association <span class="highlight">ESCA'L</span></h1>
+            <p class="project-hero-desc fade-in-delay">
+                Tout au long d'une semaine, j'ai répondu aux demandes de l'association "ESCA'L" (choisie au préalable). Ce projet s'est construit autour de la création intégrale de leur identité numérique : charte graphique, création du logo, élaboration de supports de communication et développement de leur site web associatif.
+            </p>
+        </div>
+    </header>
+
+    <!-- SECTION : IDENTITE VISUELLE -->
+    <section class="section">
+        <div class="container">
+            <h2 class="section-title">IDENTITÉ <span class="highlight">VISUELLE</span></h2>
+            
+            <div class="project-carousel">
+                <div class="swiper mySwiper">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide"><img src="images/projet ESCAL/choix de couleurs.JPG" alt="Choix de couleurs"></div>
+                        <div class="swiper-slide"><img src="images/projet ESCAL/LOGO.JPG" alt="Logo"></div>
+                        <div class="swiper-slide"><img src="images/projet ESCAL/notre proposition de logo.JPG" alt="Notre proposition de logo"></div>
+                    </div>
+                    <div class="swiper-button-next"></div>
+                    <div class="swiper-button-prev"></div>
+                    <div class="swiper-pagination"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECTION : VISUELS PRINT -->
+    <section class="section">
+        <div class="container">
+            <h2 class="section-title">POSTES & <span class="highlight">PRINT</span></h2>
+            <div class="gallery-grid">
+                <div class="gallery-item"><img src="images/projet ESCAL/affiches.JPG" alt="Affiches"></div>
+                <div class="gallery-item"><img src="images/projet ESCAL/postes.JPG" alt="Postes"></div>
+                <div class="gallery-item"><img src="images/projet ESCAL/réponses aux demandes.JPG" alt="Réponses aux demandes"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECTION : MAQUETTE SITE WEB -->
+    <section class="section">
+        <div class="container center">
+            <h2 class="section-title">MAQUETTE <span class="highlight">SITE WEB</span></h2>
+            <div style="display: flex; flex-direction: column; gap: 1rem;">
+                <img src="images/projet ESCAL/maquette 1.PNG" alt="Maquette Site Web Partie 1" style="border-radius: var(--border-radius); border: 1px solid rgba(255,255,255,0.05); margin-bottom: 0; max-width: 100%;">
+                <img src="images/projet ESCAL/maquette 2.PNG" alt="Maquette Site Web Partie 2" style="border-radius: var(--border-radius); border: 1px solid rgba(255,255,255,0.05); margin-bottom: 2rem; max-width: 100%;">
+            </div>
+        </div>
+    </section>
+
+    <!-- SECTION : SITE WEB (Vidéo et lien) -->
+    <section class="section" style="padding-top: 0;">
+        <div class="container">
+            <h2 class="section-title">SITE <span class="highlight">WEB</span></h2>
+            <div class="video-showcase">
+                <video muted loop playsinline controls autoplay>
+                    <source src="vidéos/site ESCAL/ESCA’L — Adhérer - Google Chrome 2026-04-10 10-00-12.mp4" type="video/mp4">
+                    Votre navigateur ne supporte pas la vidéo.
+                </video>
+            </div>
+            <div class="center" style="margin-top: 3rem;">
+                <a href="https://escalmds.netlify.app/adherer/adherer" target="_blank" class="btn btn-primary">Visiter le site en ligne <i class='bx bx-link-external'></i></a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container footer-container">
+            <p>&copy; 2026 Axel Roquain. Tous droits réservés.</p>
+            <a href="#" class="scroll-top"><i class='bx bx-up-arrow-alt'></i></a>
+        </div>
+    </footer>
+
+    <!-- JS Scripts -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>

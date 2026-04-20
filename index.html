@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Axel Roquain | Portfolio Digital</title>
+    <meta name="description" content="Portfolio de Axel Roquain, étudiant en digital à la recherche d'une alternance en marketing digital pour Septembre 2026.">
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Outfit:wght@400;700;800;900&display=swap" rel="stylesheet">
+    
+    <!-- Icons -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container nav-container">
+            <a href="#" class="logo">AR<span>.</span></a>
+            <ul class="nav-links">
+                <li><a href="#home" class="active">Accueil</a></li>
+                <li><a href="#about">À Propos</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="menu-toggle">
+                <i class='bx bx-menu'></i>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Section Accueil -->
+    <header id="home" class="hero section">
+        <div class="container hero-container">
+            <div class="hero-content">
+                <span class="subtitle slide-in">Bienvenue sur mon portfolio</span>
+                <h1 class="title fade-in">Bonjour, je suis <span class="highlight">Axel Roquain</span></h1>
+                <p class="description fade-in-delay">
+                    Étudiant en 1ère année spécialisé dans le Web et le Digital. <br>
+                    Je suis à la recherche d'une <strong>alternance de 2 ans en Marketing Digital</strong> à partir de <strong>Septembre 2026</strong>.
+                </p>
+                <div class="hero-btns fade-in-delay-2">
+                    <a href="#portfolio" class="btn btn-primary">Voir mes projets</a>
+                    <a href="#contact" class="btn btn-secondary">Me contacter</a>
+                </div>
+            </div>
+            <div class="hero-visual">
+                <!-- Decorative elements / shapes for aesthetic -->
+                <div class="shape shape-1"></div>
+                <div class="shape shape-2"></div>
+                <div class="shape shape-3"></div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Section À Propos -->
+    <section id="about" class="about section">
+        <div class="container about-container">
+            <div class="about-image">
+                <!-- Image placeholder, par exemple portrait ou illustration -->
+                <img src="https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?q=80&w=600&auto=format&fit=crop" alt="Portrait de Axel Roquain (Illustration illustrative temporaire)" class="profile-img">
+            </div>
+            <div class="about-text">
+                <h2 class="section-title">À Propos de <span class="highlight">Moi</span></h2>
+                <p>Hello ! Je m'appelle <strong>Axel Roquain</strong>, j'ai 20 ans, et je suis un véritable passionné par l'univers du digital et de la communication.</p>
+                <p>Actuellement en première année d'études dans le web, je développe une forte appétence pour la stratégie digitale, la création de contenu, et l'acquisition de trafic. Mon objectif est d'aider les entreprises à optimiser leur présence en ligne et à raconter leur histoire grâce à des campagnes impactantes.</p>
+                <p>Créatif, curieux et toujours à l'affût des dernières tendances (SEO, SEA, réseaux sociaux, analyse de données), je souhaite mettre mon énergie au service de votre équipe.</p>
+                
+                <div class="stats">
+                    <div class="stat-item">
+                        <h3>2026</h3>
+                        <span>Début de l'alternance (Septembre, 2 ans)</span>
+                    </div>
+                    <div class="stat-item">
+                        <h3>100%</h3>
+                        <span>Déterminé et motivé</span>
+                    </div>
+                </div>
+
+                <a href="https://www.linkedin.com" target="_blank" class="btn btn-linkedin">
+                    <i class='bx bxl-linkedin-square'></i> Mon profil LinkedIn
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section Portfolio -->
+    <section id="portfolio" class="portfolio section">
+        <div class="container">
+            <div class="section-header center">
+                <h2 class="section-title">Mes <span class="highlight">Projets</span></h2>
+                <p>Découvrez une sélection de mes travaux récents. Triés par catégories.</p>
+            </div>
+
+            <!-- Grille de projets mis en avant -->
+            <div class="featured-projects-grid">
+                
+                <!-- Projet 1 : STONE -->
+                <a href="projet-stone.html" class="featured-card">
+                    <img src="images/projet de partiels/écran d'accueil.JPG" alt="Projet STONE" class="card-bg">
+                    <div class="card-content">
+                        <h3>Projet STONE</h3>
+                        <p>Conciergerie de voyage haut de gamme</p>
+                        <span class="card-arrow"><i class='bx bx-right-arrow-alt'></i></span>
+                    </div>
+                </a>
+
+                <!-- Projet 2 : ESCA'L -->
+                <a href="projet-escal.html" class="featured-card">
+                    <img src="images/projet ESCAL/maquette site web.PNG" alt="Projet ESCA'L" class="card-bg">
+                    <div class="card-content">
+                        <h3>Digital sans frontières</h3>
+                        <p>Association ESCA'L</p>
+                        <span class="card-arrow"><i class='bx bx-right-arrow-alt'></i></span>
+                    </div>
+                </a>
+
+                <!-- Projet 3 : Autres -->
+                <a href="autres-projets.html" class="featured-card">
+                    <img src="images/mange moi le fred's.PNG" alt="Autres Projets" class="card-bg">
+                    <div class="card-content">
+                        <h3>Autres Projets</h3>
+                        <p>Sites vitrines, affiches et logos</p>
+                        <span class="card-arrow"><i class='bx bx-right-arrow-alt'></i></span>
+                    </div>
+                </a>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Section Contact -->
+    <section id="contact" class="contact section">
+        <div class="container">
+            <div class="contact-grid">
+                <div class="contact-info">
+                    <h2 class="section-title">Travaillons <span class="highlight">Ensemble</span></h2>
+                    <p>Vous cherchez un alternant motivé, curieux et compétent pour renforcer votre équipe marketing digitale en Septembre 2026 ? Discutons-en !</p>
+                    
+                    <ul class="info-list">
+                        <li>
+                            <i class='bx bx-map'></i>
+                            <span>France</span>
+                        </li>
+                        <li>
+                            <i class='bx bx-envelope'></i>
+                            <span><a href="mailto:contact@axelarquain.com">contact@axelarquain.com</a> (À remplacer)</span>
+                        </li>
+                    </ul>
+
+                    <div class="social-links">
+                        <a href="https://linkedin.com" target="_blank" class="social-btn"><i class='bx bxl-linkedin'></i></a>
+                        <a href="#" class="social-btn"><i class='bx bxl-instagram'></i></a>
+                        <a href="#" class="social-btn"><i class='bx bxl-behance'></i></a>
+                    </div>
+                </div>
+
+                <div class="contact-form-container">
+                    <form class="contact-form" onsubmit="event.preventDefault(); alert('Message envoyé avec succès !');">
+                        <div class="form-group">
+                            <input type="text" id="name" placeholder="Votre nom complet" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" id="email" placeholder="Votre adresse email" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="text" id="subject" placeholder="Sujet" required>
+                        </div>
+                        <div class="form-group">
+                            <textarea id="message" rows="5" placeholder="Votre message..." required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary submit-btn">Envoyer le message <i class='bx bx-send'></i></button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container footer-container">
+            <p>&copy; 2026 Axel Roquain. Tous droits réservés.</p>
+            <a href="#home" class="scroll-top"><i class='bx bx-up-arrow-alt'></i></a>
+        </div>
+    </footer>
+
+    <!-- JS Scripts -->
+    <script src="script.js"></script>
+</body>
+</html>
